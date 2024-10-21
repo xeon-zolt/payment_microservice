@@ -1,0 +1,7 @@
+/
+/Applications/PyCharm.app/Contents/plugins/python/helpers/coverage_runner
+/Applications/PyCharm.app/Contents/plugins/python/helpers/coverage_runner
+/Users/xeon/.pyenv/versions/3.10.1/lib/python310.zip
+/Users/xeon/.pyenv/versions/3.10.1/lib/python3.10
+/Users/xeon/.pyenv/versions/3.10.1/lib/python3.10/lib-dynload
+/Users/xeon/payments-api/.env/lib/python3.10/site-packages

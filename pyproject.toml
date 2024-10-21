@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "payments_api"
+version = "0.1.0"
+description = "payments api microservice"
+authors = ["Xeon <harsh.lathwal@niyotail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.10.2"
+fastapi = "^0.73.0"
+uvicorn = "^0.17.4"
+sqlmodel = "^0.0.6"
+aiomysql = "^0.0.22"
+mysqlclient = "^2.1.0"
+ulid = "^1.1"
+toml = "^0.10.2"
+razorpay = "^1.2.0"
+alembic = "^1.7.6"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+pre-commit = "^2.17.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+# [tool.poetry.scripts]
+# start = "main:app --reload"
+# hotreload = "uvicorn payment_app.main:app --reload"
+
+# [tool.vulture]
+# exclude = [""]
+# ignore_decorators = [""]
+# ignore_names = [""]
+# make_whitelist = false
+# min_confidence = 80
+# paths = ["payment_app/"]
+# sort_by_size = true
+# verbose = true

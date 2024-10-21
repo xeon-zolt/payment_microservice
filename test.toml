@@ -1,0 +1,20 @@
+[default]
+id = 1
+[[gateway]]
+id = 1
+driver = 'razorpay'
+key_id = 'key_id'
+key_secret = 'key_secret'
+webhook_secret = 'webhook_secret'
+[[gateway]]
+id = 2
+driver = 'razorpay'
+key_id = 'key_id'
+key_secret = 'key_secret'
+webhook_secret = 'webhook_secret'
+[[gateway]]
+id = 3
+driver = 'razorpay'
+key_id = 'key_id'
+key_secret = 'key_secret'
+webhook_secret = 'webhook_secret'

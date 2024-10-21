@@ -1,0 +1,29 @@
+# save it as config.toml
+[default]
+id = 1
+
+[[gateway]]
+id = 1
+driver = 'razorpay'
+key_id = 'rzp_test_xxxxxxxx'
+key_secret = 'rxxxxxxxxxxxxx'
+
+
+[[gateway]]
+id = 2
+driver = 'razorpay'
+key_id = 'rzp_test_xxxxxxxx'
+key_secret = 'rxxxxxxxxxxxxx'
+
+
+[[gateway]]
+id = 3
+driver = 'easypay'
+key_id = 'exxxxxxxxx'
+key_secret = 'exxxxxxxxxx'
+
+[[gateway]]
+id = 3
+driver = 'paytm'
+key_id = 'pxxxxxxxxx'
+key_secret = 'pxxxxxxxxxx'

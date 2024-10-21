@@ -1,0 +1,160 @@
+{
+    "TRANSACTION": {
+        "id": "01GGCF18MC2JCYYP1FD5QECV68",
+        "total_amount": 10,
+        "amount": 10,
+        "source_id": "f91dc8dc-8966-421d-b498-99f15101992e",
+        "payment_type": "pos_sales_payment",
+        "driver": 1,
+        "gateway_order_id": "order_KYl9EO4XKmVTQ0",
+        "status": "created",
+        "api_request": {"notes": {"client": "test", "store_id": "1", "store_name": "Yaduvanshi Discount Store", "payment_type": "pos_sales_payment", "pos_device_no": "M10", "pos_user_name": "Avnish Chhabra", "transaction_id": "01GGCF18MC2JCYYP1FD5QECV68"}, "amount": 123400, "receipt": "f91dc8dc-8966-421d-b498-99f15101992e", "currency": "INR", "payment_capture": true},
+        "api_response": {"id": "order_KYl9EO4XKmVTQ0", "notes": {"client": "test", "store_id": "1", "store_name": "Yaduvanshi Discount Store", "payment_type": "pos_sales_payment", "pos_device_no": "M10", "pos_user_name": "Avnish Chhabra", "transaction_id": "01GGCF18MC2JCYYP1FD5QECV68"}, "amount": 123400, "entity": "order", "status": "created", "receipt": "f91dc8dc-8966-421d-b498-99f15101992e", "attempts": 0, "currency": "INR", "offer_id": null, "amount_due": 123400, "created_at": 1666865734, "amount_paid": 0},
+        "store_id": 1,
+        "client_id": 1,
+        "additional_info": {"client": "test", "store_id": "1", "store_name": "Yaduvanshi Discount Store", "payment_type": "pos_sales_payment", "pos_device_no": "M10", "pos_user_name": "Avnish Chhabra", "transaction_id": "01GGCF18MC2JCYYP1FD5QECV68"},
+        "api_version": 1,
+        "client_version": 1.55,
+        "api_status": 200,
+        "callback_response": {"id": "pay_KYl9MF0OHaWQO9", "fee": 2767, "tax": 422, "vpa": null, "bank": null, "email": "support@1knetworks.com", "notes": {"client": "test", "store_id": "1", "store_name": "Yaduvanshi Discount Store", "payment_type": "pos_sales_payment", "pos_device_no": "M10", "pos_user_name": "Avnish Chhabra", "transaction_id": "01GGCF18MC2JCYYP1FD5QECV68"}, "amount": 123400, "entity": "payment", "method": "wallet", "status": "captured", "wallet": "mobikwik", "card_id": null, "contact": "+919416630339", "captured": true, "currency": "INR", "order_id": "order_KYl9EO4XKmVTQ0", "created_at": 1666865742, "error_code": null, "error_step": null, "invoice_id": null, "base_amount": 123400, "description": "f91dc8dc-8966-421d-b498-99f15101992e", "error_reason": null, "error_source": null, "acquirer_data": {"transaction_id": null}, "international": false, "refund_status": null, "amount_refunded": 0, "late_authorized": false, "error_description": null},
+        "gateway_payment_id": "pay_KYl9MF0OHaWQO9"
+    },
+    "REFUND_PAYMENT": {
+        "amount_to_refund": 10.00,
+        "payment_transaction_id": "",
+        "notes": {},
+        "receipt": ""
+    },
+    "REFUND_PAYMENT_RESPONSE": {
+        "id": "01FZJEND4EWV9NRTN0PNZV0E0A",
+        "refund_id": "rfnd_JE4tnurypGinRP",
+        "transaction_id": "01GF8PP69RXP1BT3WZQ17J8RV4",
+        "api_request": {"data": {"receipt": "56fa4b62-4045-4aa7-998c-8b2b27f6c951"}, "amount": 100, "payment_id": "pay_JDIgZ4mIvaIKTw"},
+        "api_response": {"id": "rfnd_JGOJVluOYJMgno", "notes": [], "amount": 200, "entity": "refund", "status": "processed", "receipt": "3622d849-7063-4f6f-920d-a1bcae0350cd", "batch_id": null, "currency": "INR", "created_at": 1649318113, "payment_id": "pay_JGOJ4oPfbkKSoi", "refund_type": "", "processed_at": null, "acquirer_data": {"arn": null}, "speed_processed": "normal", "speed_requested": "normal"},
+        "api_status": 200,
+        "callable_response": {"id": "rfnd_KNiEDViGF5gtB3", "notes": {"transaction_id": "01GE4A4E7GNE05TSTV7359X5MK", "order_payment_id": 10501370, "refund_for_order_id": "1b848a4f-c22a-496d-b1f8-c7a4ab179bf7", "refund_transaction_id": "01GE4JR5BFRHD06G9AGWRTC22E"}, "amount": 82400, "entity": "refund", "status": "processed", "receipt": "1b848a4f-c22a-496d-b1f8-c7a4ab179bf7", "batch_id": null, "currency": "INR", "created_at": 1664453712, "payment_id": "pay_KNffH8ubvcYxRg", "acquirer_data": {"arn": null}, "speed_processed": "normal", "speed_requested": "normal"},
+        "status": "success",
+        "amount": 10.00,
+        "additional_info": {}
+    },
+    "MAKE_PAYMENT_RESPONSE": {
+        "entity": "transaction",
+        "transaction": {
+            "id": "01GGCF18MC2JCYYP1FD5QECV68",
+            "total_amount": 10,
+            "amount": 10,
+            "source_id": "f91dc8dc-8966-421d-b498-99f15101992e",
+            "payment_type": "pos_sales_payment",
+            "driver": 1,
+            "gateway_order_id": "order_KYl9EO4XKmVTQ0",
+            "status": "created",
+            "api_request": {"notes": {"client": "test", "store_id": "1", "store_name": "Yaduvanshi Discount Store", "payment_type": "pos_sales_payment", "pos_device_no": "M10", "pos_user_name": "Avnish Chhabra", "transaction_id": "01GGCF18MC2JCYYP1FD5QECV68"}, "amount": 123400, "receipt": "f91dc8dc-8966-421d-b498-99f15101992e", "currency": "INR", "payment_capture": true},
+            "api_response": {"id": "order_KYl9EO4XKmVTQ0", "notes": {"client": "test", "store_id": "1", "store_name": "Yaduvanshi Discount Store", "payment_type": "pos_sales_payment", "pos_device_no": "M10", "pos_user_name": "Avnish Chhabra", "transaction_id": "01GGCF18MC2JCYYP1FD5QECV68"}, "amount": 123400, "entity": "order", "status": "created", "receipt": "f91dc8dc-8966-421d-b498-99f15101992e", "attempts": 0, "currency": "INR", "offer_id": null, "amount_due": 123400, "created_at": 1666865734, "amount_paid": 0},
+            "store_id": 1,
+            "client_id": 1,
+            "additional_info": {"client": "test", "store_id": "1", "store_name": "Yaduvanshi Discount Store", "payment_type": "pos_sales_payment", "pos_device_no": "M10", "pos_user_name": "Avnish Chhabra", "transaction_id": "01GGCF18MC2JCYYP1FD5QECV68"},
+            "api_version": 1,
+            "client_version": 1.55,
+            "api_status": 200,
+            "callback_response": {"id": "pay_KYl9MF0OHaWQO9", "fee": 2767, "tax": 422, "vpa": null, "bank": null, "email": "support@1knetworks.com", "notes": {"client": "test", "store_id": "1", "store_name": "Yaduvanshi Discount Store", "payment_type": "pos_sales_payment", "pos_device_no": "M10", "pos_user_name": "Avnish Chhabra", "transaction_id": "01GGCF18MC2JCYYP1FD5QECV68"}, "amount": 123400, "entity": "payment", "method": "wallet", "status": "captured", "wallet": "mobikwik", "card_id": null, "contact": "+919416630339", "captured": true, "currency": "INR", "order_id": "order_KYl9EO4XKmVTQ0", "created_at": 1666865742, "error_code": null, "error_step": null, "invoice_id": null, "base_amount": 123400, "description": "f91dc8dc-8966-421d-b498-99f15101992e", "error_reason": null, "error_source": null, "acquirer_data": {"transaction_id": null}, "international": false, "refund_status": null, "amount_refunded": 0, "late_authorized": false, "error_description": null},
+            "gateway_payment_id": "pay_KYl9MF0OHaWQO9"
+        },
+        "driver": "razorpay"
+    },
+    "MAKE_PAYMENT": {
+        "driver_id": 1,
+        "total_amount": 10.00,
+        "amount_to_pay": 10.00,
+        "payment_type": "",
+        "source_id": "",
+        "store_id": 63,
+        "additional_info": {}
+    },
+    "CREATE_PAYMENT_LINK_PAYLOAD": {
+        "driver_id": 1,
+        "amount": 10.00,
+        "description": "10 rs",
+        "customer_email": "vishal@gmail.com",
+        "customer_phone": "918417809551",
+        "customer_name": "vishal",
+        "source_id": "",
+        "store_id": "32"
+    },
+    "CREATE_PAYMENT_LINK": {
+        "id":"plink_KTbJbNgas9gsUk",
+        "notes":null,
+        "amount":100,
+        "notify":{
+            "sms":false,
+            "email":false,
+            "whatsapp":false
+        },
+        "status":"created",
+        "user_id":"",
+        "currency":"INR",
+        "customer":{
+            "name":"string",
+            "email":"string@gmail.com",
+            "contact":"+918417809551"
+        },
+        "payments":null,
+        "upi_link":false,
+        "expire_by":0,
+        "reminders":[
+            
+        ],
+        "short_url":"https://rzp.io/i/fSAVU6bfn",
+        "created_at":1665739407,
+        "expired_at":0,
+        "updated_at":1665739407,
+        "amount_paid":0,
+        "description":"string",
+        "cancelled_at":0,
+        "reference_id":"",
+        "accept_partial":false,
+        "reminder_enable":false,
+        "first_min_partial_amount":0
+    },
+    "CANCEL_PAYMENT_LINK": {
+        "id":"plink_KTb1hkpYnSZg8c",
+        "notes":null,
+        "amount":100,
+        "notify":{
+            "sms":false,
+            "email":false,
+            "whatsapp":false
+        },
+        "status":"cancelled",
+        "user_id":"",
+        "currency":"INR",
+        "customer":{
+            "name":"string",
+            "email":"string@gmail.com",
+            "contact":"+918417809551"
+        },
+        "order_id":"order_KTb1sl3pe9uVRe",
+        "payments":[
+            
+        ],
+        "upi_link":false,
+        "expire_by":0,
+        "reminders":[
+            
+        ],
+        "short_url":"https://rzp.io/i/PAZOhkFFi",
+        "created_at":1665738390,
+        "expired_at":0,
+        "updated_at":1665739068,
+        "amount_paid":0,
+        "description":"string",
+        "cancelled_at":1665739068,
+        "reference_id":"",
+        "accept_partial":false,
+        "reminder_enable":false,
+        "first_min_partial_amount":0
+    },
+    "RESEND_PAYMENT_LINK": {
+        "success": true
+    }
+
+}

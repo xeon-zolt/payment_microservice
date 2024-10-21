@@ -1,0 +1,115 @@
+{
+    "DISPUTES": {
+      "amount": 90000,
+      "dispute_evidence_id": null,
+      "currency": "INR",
+      "dispute_id": "disp_JKpxpWeqUOgr3Z",
+      "gateway_dispute_id": "202209424007070",
+      "comments": null,
+      "amount_deducted": 90000,
+      "respond_by": "2022-04-21T18:29:59",
+      "reason_code": "goods_or_services_not_received_or_partially_received",
+      "status": "lost",
+      "entity": "dispute",
+      "phase": "chargeback",
+      "payment_id": "pay_JF9bhoDfygNpqu",
+      "driver_id": 1,
+      "driver_created_at": "2022-05-11T13:24:38"
+    },
+    "DISPUTE_EVIDENCE": {
+      "amount": 25000,
+      "summary": "We discussed with the customer regarding the dispute raised on this transaction. This transaction was made from Store_ID 2211. As discussed with the customer, he does not have objection against this transaction and accordingly, uploaded the confirmation obtained from him, for your reference. Request you to please do not process any refund against this transaction.",
+      "shipping_proof": [],
+      "billing_proof": [],
+      "cancellation_proof": [],
+      "customer_communication": [],
+      "proof_of_service": [],
+      "explanation_letter": [],
+      "refund_confirmation": [],
+      "access_activity_log": [],
+      "refund_cancellation_policy": [],
+      "term_and_conditions": [],
+      "others": [],
+      "submitted_at": "2022-12-28 09:58:41"
+    },
+    "DISPUTE_DOCUMENT": {
+        "updated_at": "2023-01-11T06:50:38",
+        "url": "https://rzp-1415-prod-api-settlement.s3.ap-south-1.amazonaws.com/api/ixdrs3pweqlezh/0df4b/confirmationfromstore?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=FwoGZXIvYXdzEFgaDLGpnZ%2Bms8elT89E1CKtAdZBKIvK%2F8%2BzRnkGvuUKblbqZO2UD7mJyFqE0IjtpcyaoCLh8o3U5oJFDg4CCYHHqpXVV2%2F0%2BUKqmgEjVuSsFabj3sCNWBeZhXyIQBq4WlbGZ9riIFbZz2%2FsAgXFeWScy3potIuHIm95phyAO6wDQpYKlD5IxUCH%2FNmEeHN%2BW6nnUjnz%2Bxqv9jAXqdgjFJuAOmT8yVWV20y14Qhya0G%2B%2BwIDB27hx6swHc6nl4iiKLS4%2BZ0GMi1f%2FYXk8u5KvULnlsM%2B9%2F8ZoBfvTOGSaqq9dFsQmkpWm1UJTKtZIt2mH6UpBoc%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIASB54T2ANI2DV2D4V%2F20230111%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20230111T065038Z&X-Amz-SignedHeaders=host&X-Amz-Expires=900&X-Amz-Signature=2c38adf029e0f23da4d599a3c27e908e7a0d13619c8761b210e7105455e3a84a",
+        "rzp_created_at": "2023-01-02T12:34:21",
+        "entity": "document",
+        "mime_type": "image/jpeg",
+        "created_at": "2023-01-11T06:50:38",
+        "display_name": "",
+        "document_id": "doc_KzJIu1plWhc7cP",
+        "size": "129728"
+    },
+    "ACCEPT_DISPUTE": {
+      "id": "disp_AHfqOvkldwsbqt",
+      "entity": "dispute",
+      "payment_id": "pay_EsyWjHrfzb59eR",
+      "amount": 10000,
+      "currency": "INR",
+      "amount_deducted": 10000,
+      "reason_code": "pre_arbitration",
+      "respond_by": 1590604200,
+      "status": "lost",
+      "phase": "pre_arbitration",
+      "created_at": 1590059211,
+      "evidence": {
+        "amount": 10000,
+        "summary": null,
+        "shipping_proof": null,
+        "billing_proof": null,
+        "cancellation_proof": null,
+        "customer_communication": null,
+        "proof_of_service": null,
+        "explanation_letter": null,
+        "refund_confirmation": null,
+        "access_activity_log": null,
+        "refund_cancellation_policy": null,
+        "term_and_conditions": null,
+        "others": null,
+        "submitted_at": null
+      }
+    },
+    "CONTEST_DISPUTE": {
+      "id": "disp_AHfqOvkldwsbqt",
+      "entity": "dispute",
+      "payment_id": "pay_EsyWjHrfzb59eR",
+      "amount": 10000,
+      "currency": "INR",
+      "amount_deducted": 0,
+      "reason_code": "chargeback",
+      "respond_by": 1590604200,
+      "status": "open",
+      "phase": "chargeback",
+      "created_at": 1590059211,
+      "evidence": {
+        "amount": 5000,
+        "summary": "goods delivered",
+        "shipping_proof": [
+          "doc_EFtmUsbwpXwBH9",
+          "doc_EFtmUsbwpXwBH8"
+        ],
+        "billing_proof": null,
+        "cancellation_proof": null,
+        "customer_communication": null,
+        "proof_of_service": null,
+        "explanation_letter": null,
+        "refund_confirmation": null,
+        "access_activity_log": null,
+        "refund_cancellation_policy": null,
+        "term_and_conditions": null,
+        "others": [
+          {
+            "type": "receipt_signed_by_customer",
+            "document_ids": [
+              "doc_EFtmUsbwpXwBH1",
+              "doc_EFtmUsbwpXwBH7"
+            ]
+          }
+        ],
+        "submitted_at": null
+      }
+    }
+}
