@@ -188,6 +188,14 @@ class TestPaymentApisV1(unittest.TestCase):
         assert response.json()["response"]["transaction"]["id"] is not None
         assert response.json()["response"]["transaction"]["gateway_order_id"] is not None
 
+    @patch("payment_app.services.payment_service.PaymentService.create_payment_link")
+    def test_create_payment_link(self, mocker):
+        payload: dict[str, any] = payment_payload["CREATE_PAYMENT_LINK_PAYLOAD"]
+        mocker.return_value = payment_payload["CREATE_PAYMENT_LINK"]
+        response = client.post("/v1/create_payment_link", json=payload, headers={"x-api-key": x_api_key})
+        assert response.status_code == 200
+        assert response.json()["response"]["id"] is not None
+        assert response.json()["response"]["short_url"] is not None
 
     """
         Refund Payment Testcases

@@ -122,6 +122,13 @@ class TestDisputeApisV1(unittest.TestCase):
         response = client.post(f"/v1/disputes/contest/{self.__dispute.id}", headers={"x-api-key": x_api_key})
         assert response.json()["response"]["status"] == 'open'
         assert response.status_code == 200
+
+    @patch("payment_app.services.payment_service.PaymentService.accept_dispute")
+    def test_accept_dispute_successfully(self, mocker):
+        mocker.return_value = dispute_data["ACCEPT_DISPUTE"]
+        response = client.post(f"/v1/disputes/accept/{self.__dispute.id}", headers={"x-api-key": x_api_key})
+        assert response.status_code == 200
+        assert response.json()["response"]["status"] == 'lost'
         
     @classmethod
     def tearDownClass(self):
